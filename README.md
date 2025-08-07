@@ -1,4 +1,4 @@
-# Site de portifólio do Ilustrador Aquin
+# Site de portifólio do Ilustrador AquinArts
 
 Este é um site de portfólio moderno e responsivo projetado para ilustradores e artistas visuais exibirem seus trabalhos de forma profissional e atraente.
 
