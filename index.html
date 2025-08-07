@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galeria de arte contemporânea com pinturas digitais, desenhos tradicionais e arte vetorial. Explore obras que transcendem o comum e convidam à reflexão.">
+    <meta name="keywords" content="pintura digital, desenho tradicional, arte vetorial, galeria de arte, arte contemporânea, ilustração digital">
+    <meta name="author" content="Aquin">
+    <meta property="og:title" content="Galeria de Arte & Ilustração | Pinturas Digitais e Desenhos Tradicionais">
+    <meta property="og:description" content="Explore nossa coleção de pinturas digitais e desenhos tradicionais que capturam emoções e narrativas visuais únicas.">
+    <meta property="og:image" content="img/sardas-de-estrelas-pintura-digital.png">
+    <meta property="og:url" content="https://www.galeriadeartecontemporanea.com">
+    <meta property="og:type" content="website">
+    <title>Galeria de Arte & Ilustração | Pinturas Digitais e Desenhos Tradicionais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Galeria Véu e Vertigem</h1>
+            <nav>
+                <ul>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Arte que transcende o comum</h2>
+                <p>Pinturas digitais e desenhos tradicionais que exploram emoções e narrativas visuais</p>
+                <a href="#portfolio" class="btn">Ver trabalhos</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfólio</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="digital">Pintura Digital</button>
+                <button class="filter-btn" data-filter="tradicional">Desenho Tradicional</button>
+                <button class="filter-btn" data-filter="vetorial">Arte Vetorial</button>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item" data-category="digital">
+                    <img src="img/a-cor-da-saudade-pintura-digital.png" alt="A Cor da Saudade - Através do vidro, a alma se tinge com a cor do que já não existe">
+                    <div class="overlay">
+                        <h3>A Cor da Saudade</h3>
+                        <p>Pintura Digital</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tradicional">
+                    <img src="img/a-fabrica-de-cores-lapis-de-cor-sobre-papel.jpg" alt="A Fábrica de Cores - A engrenagem que move o mundo funciona à base de raízes e acaso">
+                    <div class="overlay">
+                        <h3>A Fábrica de Cores</h3>
+                        <p>Lápis de Cor Sobre Papel</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tradicional">
+                    <img src="img/anatomia-de-uma-pausa-desenho-a-lapis.jpg" alt="Anatomia de uma Pausa - O corpo se dobra sobre as linhas que a mente ainda está desenhando">
+                    <div class="overlay">
+                        <h3>Anatomia de uma Pausa</h3>
+                        <p>Desenho a Lápis</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="digital">
+                    <img src="img/cancao-de-ninar-para-o-fim-pintura-digital.jpg" alt="Canção de Ninar para o Fim - Uma lágrima salgada para a terra que aprendeu a beber pólvora">
+                    <div class="overlay">
+                        <h3>Canção de Ninar para o Fim</h3>
+                        <p>Pintura Digital</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tradicional">
+                    <img src="img/contorno-silencioso-desenho-a-lapis.png" alt="Contorno Silencioso - Sombras dançam na curva, guardando um segredo que só o toque pode revelar">
+                    <div class="overlay">
+                        <h3>Contorno Silencioso</h3>
+                        <p>Desenho a Lápis</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="digital">
+                    <img src="img/coroa-de-porcelana-pintura-digital.png" alt="Coroa de Porcelana - Na pele, florescem as promessas que o tempo esqueceu de colher">
+                    <div class="overlay">
+                        <h3>Coroa de Porcelana</h3>
+                        <p>Pintura Digital</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="vetorial">
+                    <img src="img/limiar-do-adeus-arte-vetorial.png" alt="Limiar do Adeus - Ela caminha para o sol, deixando para trás um amor servido para dois">
+                    <div class="overlay">
+                        <h3>Limiar do Adeus</h3>
+                        <p>Arte Vetorial</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="vetorial">
+                    <img src="img/o-espetaculo-do-vazio-arte-vetorial.png" alt="O Espetáculo do Vazio - No centro do cosmos, um eco busca outro para não ser apenas som">
+                    <div class="overlay">
+                        <h3>O Espetáculo do Vazio</h3>
+                        <p>Arte Vetorial</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="digital">
+                    <img src="img/rua-sem-nome-pintura-digital.jpg" alt="Rua Sem Nome - Algumas esperas carregam o peso de um golpe que nunca chega">
+                    <div class="overlay">
+                        <h3>Rua Sem Nome</h3>
+                        <p>Pintura Digital</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="digital">
+                    <img src="img/sardas-de-estrelas-pintura-digital.png" alt="Sardas de Estrelas - Em seu olhar, um céu antigo guarda segredos que a boca não ousa contar">
+                    <div class="overlay">
+                        <h3>Sardas de Estrelas</h3>
+                        <p>Pintura Digital</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="digital">
+                    <img src="img/sentinela-da-nevoa-pintura-digital.jpg" alt="Sentinela da Névoa - Ele vigia o crepúsculo, esperando a forma que a solidão tomará hoje">
+                    <div class="overlay">
+                        <h3>Sentinela da Névoa</h3>
+                        <p>Pintura Digital</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre o Artista</h2>
+                    <p>Sou um artista visual especializado em pinturas digitais e desenhos tradicionais que exploram a profundidade das emoções humanas. Meu trabalho busca transcender o comum, criando peças que convidam à reflexão e contemplação.</p>
+                    <p>Com formação em artes visuais e experiência em técnicas digitais avançadas, cada obra é cuidadosamente elaborada para transmitir uma narrativa única, seja através das cores vibrantes das pinturas digitais ou das linhas expressivas dos desenhos a lápis.</p>
+                    <div class="skills">
+                        <span>Pintura Digital</span>
+                        <span>Desenho Tradicional</span>
+                        <span>Arte Vetorial</span>
+                        <span>Composição Visual</span>
+                        <span>Narrativa Visual</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/coroa-de-porcelana-pintura-digital.png" alt="Coroa de Porcelana - Na pele, florescem as promessas que o tempo esqueceu de colher">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>email@exemplo.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+55 (00) 00000-0000</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>São Paulo, Brasil</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Galeria de Arte Contemporânea | Pinturas Digitais e Desenhos Tradicionais. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal para exibir imagens em tamanho maior -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botão flutuante de orçamento -->
+    <button id="budgetFloatingBtn" class="floating-budget-btn">
+        <i class="fas fa-calculator"></i>
+        <span>Orçamento</span>
+    </button>
+
+    <!-- Modal de orçamento -->
+    <div id="budgetModal" class="budget-modal">
+        <div class="budget-modal-content">
+            <div class="budget-modal-header">
+                <h3>Solicitar Orçamento</h3>
+                <span class="budget-close">&times;</span>
+            </div>
+            <form id="budgetForm" class="budget-form">
+                <div class="form-group">
+                    <label for="clientName">Nome Completo *</label>
+                    <input type="text" id="clientName" name="clientName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="clientWhatsapp">WhatsApp *</label>
+                    <input type="tel" id="clientWhatsapp" name="clientWhatsapp" placeholder="(11) 99999-9999" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="artType">Tipo de Arte *</label>
+                    <select id="artType" name="artType" required>
+                        <option value="">Selecione o tipo</option>
+                        <option value="retrato">Retrato</option>
+                        <option value="busto">Busto</option>
+                        <option value="corpo-inteiro">Corpo Inteiro</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="artStyle">Estilo *</label>
+                    <select id="artStyle" name="artStyle" required>
+                        <option value="">Selecione o estilo</option>
+                        <option value="realista">Realista</option>
+                        <option value="cartoon">Cartoon</option>
+                        <option value="anime">Anime</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="background">Fundo *</label>
+                    <select id="background" name="background" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="com-fundo">Com Fundo</option>
+                        <option value="sem-fundo">Sem Fundo</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="references">Referências (Imagens)</label>
+                    <div class="file-upload-area">
+                        <input type="file" id="references" name="references" multiple accept="image/*">
+                        <div class="file-upload-text">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>Clique para selecionar imagens ou arraste aqui</p>
+                            <small>Formatos aceitos: JPG, PNG, GIF (máx. 5MB cada)</small>
+                        </div>
+                    </div>
+                    <div id="fileList" class="file-list"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="additionalInfo">Informações Adicionais</label>
+                    <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Descreva detalhes específicos, prazo desejado, etc."></textarea>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" class="btn-cancel">Cancelar</button>
+                    <button type="submit" class="btn-submit">Enviar Solicitação</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
